@@ -38,4 +38,6 @@ button {
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0px;
+  display: flex;
 }
