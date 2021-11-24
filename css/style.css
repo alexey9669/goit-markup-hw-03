@@ -41,3 +41,20 @@ button {
   margin-top: 0px;
   display: flex;
 }
+.img {
+  display: inline;
+  left: 1015px;
+  top: 1061px;
+
+
+
+}
+.box {
+
+  display: inline-block;
+}
+.nav {
+  display: flex;
+  -ms-flex-direction: row;
+  align-items: flex-start;
+}
