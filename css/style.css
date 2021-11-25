@@ -13,6 +13,8 @@ h3 {
     /* identical to box height, or 200% */
     letter-spacing: 0.06em;
 }
+li{
+  list-style-type: none;}
 p {
   color: #757575;
  
@@ -27,6 +29,44 @@ letter-spacing: 0.03em;
 
 }
 button {
+    font-weight: 500;
+    cursor: pointer;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: blue;
+    color: white;
+  }
+.img {
+  display: inline;
+  left: 1015px;
+  top: 1061px;
+
+
+
+}
+.box {
+width: 370;
+  display: inline-block;
+}
+.nav {
+  display: flex;
+  align-items: flex-start;
+}
+.menu {
+  color: black;
+  text-decoration: none;
+}
+footer {
+  background-color: #2F303A;
+}
+button {
   font-weight: 500;
   cursor: pointer;
   
@@ -38,23 +78,46 @@ button {
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 0px;
+  background-color:  blue;
+  
+  color: white;}
+button:hover{ 
+  background-color: whitesmoke;
+}
+  .h1 {
+    background-color: #2F303A;
+font-family: roboto;
+text-align: center;
+color: #FFFFFF;}
+.mb> .h1 { 
   display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
 }
-.img {
-  display: inline;
-  left: 1015px;
-  top: 1061px;
-
-
-
+.logo{
+  color: black;
+  font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+text-decoration: none;}
+.menu {
+  color: black;
+  text-decoration: none;
 }
-.box {
-
-  display: inline-block;
+.menu:hover {
+  color: #2196F3;
 }
-.nav {
-  display: flex;
-  -ms-flex-direction: row;
-  align-items: flex-start;
+.menu:hover
+.menu:focus
+{color: #2196F3;}
+.adr {
+color: #757575;
+}
+.adr:hover{
+
+color: #2196F3;}
+h2{
+  text-align: center;
 }
