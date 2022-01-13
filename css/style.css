@@ -48,7 +48,7 @@ footer {
 .active {
   color: #2196f3;
 }
-.adr {
+.address {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -102,7 +102,7 @@ footer {
 
   color: #757575;
 }
-.tit {
+.heading {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -121,14 +121,13 @@ footer {
   text-decoration: none;
   margin-top: 60px;
 }
-.adre {
+.address-col {
   color: white;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
 }
 .list {
@@ -139,7 +138,7 @@ footer {
   margin-left: 24px;
   margin-bottom: 2px;
 }
-.lis {
+.items {
   font-size: 16px;
   line-height: 1, 9;
   letter-spacing: 0.03em;
@@ -156,14 +155,13 @@ footer {
   line-height: 1, 18;
   letter-spacing: 0.03em;
 }
-.gen {
+.post {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1, 18;
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 .actived-bu {
@@ -237,6 +235,7 @@ display: block;
   justify-content: center;
   margin-left: 50px;
   margin: 0px;
+  padding: 0px;
 }
 .img-flex {
   display: flex;
@@ -246,7 +245,7 @@ display: block;
 .img {
   margin: 30px;
 }
-.tet {
+.about-team {
   background-color: #f5f4fa5d;
   padding-bottom: 94px;
 }
@@ -276,7 +275,7 @@ display: block;
   justify-content: center;
 
 }
-.portfolio-p {
+.portfolio-buttons {
   display: flex;
   font-weight: 500;
   font-size: 16px;
@@ -287,8 +286,8 @@ display: block;
   justify-content: center;
   margin: 0px;
   padding: 0px;
-  height: 60px;
-
+  height: 40px;
+margin-bottom: 50px;
   
 }
 .h1 {
@@ -327,18 +326,11 @@ display: block;
   margin: 0px;
   padding: 0px;
 }
-.main {
- /*padding-top: 94px;*/
-
-}
-.address {
-  display: inline;
-}
 
 .header-container {
   display: flex;
 }
-.footer-adr {
+.footer-address {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -346,6 +338,7 @@ display: block;
   display: block;
   margin-top: 10px;
   color: #757575;
+  text-decoration: none;
 }
 .footer-adr:hover {
   color: #2196f3;
@@ -363,5 +356,8 @@ footer-container {
 section{
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.work{
+  padding-top: 0px;
 }
 
