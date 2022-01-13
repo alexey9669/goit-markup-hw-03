@@ -110,7 +110,6 @@ footer {
   margin: 0px;
   color: #212121;
   margin-bottom: 50px;
-  padding-top: 94px;
 }
 .logo-footer {
   color: white;
@@ -179,7 +178,8 @@ footer {
   height: 50px;
   left: 700px;
   top: 430px;
-  position: absolute;
+margin: 0 auto;
+display: block;
 }
 .portfolio-bu {
   font-family: Roboto;
@@ -210,8 +210,8 @@ footer {
   color: white;
 }
 .header {
-  padding-top: 7px;
-  padding-bottom: 7px;
+  /*padding-top: 7px;
+  padding-bottom: 7px;*/
   border: 1px solid #ECECEC;
   margin-bottom: 0px;
 }
@@ -219,6 +219,8 @@ footer {
   margin-right: auto;
   margin-left: auto;
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .nav {
   display: flex;
@@ -235,7 +237,6 @@ footer {
   justify-content: center;
   margin-left: 50px;
   margin: 0px;
-  padding-top: 90px;
 }
 .img-flex {
   display: flex;
@@ -291,7 +292,6 @@ footer {
   
 }
 .h1 {
-  margin: 0px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -302,10 +302,9 @@ footer {
   text-transform: uppercase;
   color: #ffffff;
   width: 696px;
-  /*margin-left: auto;
-  margin-right: auto;*/
-  margin: auto;
-  padding-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 .portfolio-box {
   margin-right: 30px;
@@ -327,11 +326,9 @@ footer {
   justify-content: center;
   margin: 0px;
   padding: 0px;
-  padding-bottom: 94px;
-  padding-top: 50px;
 }
 .main {
- padding-top: 94px;
+ /*padding-top: 94px;*/
 
 }
 .address {
@@ -362,5 +359,9 @@ footer-container {
   left: 0px;
   top: 2097px;
   background: #2f303a;
+}
+section{
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
