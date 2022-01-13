@@ -17,6 +17,8 @@ footer {
 
 .title {
   background-color: #2f303a;
+  height: 600px;
+  justify-content: center;
 }
 
 .logo {
@@ -57,7 +59,6 @@ footer {
   margin-left: 30px;
   text-decoration: none;
   text-align: center;
- 
 }
 .adr:hover {
   color: #2196f3;
@@ -97,6 +98,7 @@ footer {
   letter-spacing: 0.03em;
   font-weight: 400;
   margin-right: 10px;
+  width: 270px;
 
   color: #757575;
 }
@@ -129,7 +131,6 @@ footer {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  
 }
 .list {
   font-size: 18px;
@@ -148,18 +149,6 @@ footer {
   margin-top: 2px;
   margin-bottom: 20px;
 }
-/*h2 {
-  font-weight: 700;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}*/
 .team {
   font-family: Roboto;
   font-style: normal;
@@ -187,9 +176,10 @@ footer {
   letter-spacing: 0.06em;
   color: white;
   width: 200px;
-height: 50px;
-left: 700px;
-top: 430px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  position: absolute;
 }
 .portfolio-bu {
   font-family: Roboto;
@@ -203,7 +193,7 @@ top: 430px;
   height: 38px;
   left: 576px;
   top: 174px;
-  color:#212121;
+  color: #212121;
   margin-left: 8px;
   background: #f5f4fa;
   border-radius: 4px;
@@ -220,9 +210,9 @@ top: 430px;
   color: white;
 }
 .header {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  display: inline;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 1px solid #ECECEC;
   margin-bottom: 0px;
 }
 .container {
@@ -245,6 +235,7 @@ top: 430px;
   justify-content: center;
   margin-left: 50px;
   margin: 0px;
+  padding-top: 90px;
 }
 .img-flex {
   display: flex;
@@ -257,7 +248,6 @@ top: 430px;
 .tet {
   background-color: #f5f4fa5d;
   padding-bottom: 94px;
-  
 }
 .team-flex {
   display: flex;
@@ -278,11 +268,12 @@ top: 430px;
   margin: 0px;
   margin-right: 30px;
 }
-.boxes:last-child{
+.boxes:last-child {
   margin: 0px;
 }
 .portfolio {
   justify-content: center;
+
 }
 .portfolio-p {
   display: flex;
@@ -296,19 +287,25 @@ top: 430px;
   margin: 0px;
   padding: 0px;
   height: 60px;
+
+  
 }
 .h1 {
-margin: 0px;
+  margin: 0px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 13.6;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
- 
+  width: 696px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin: auto;
+  padding-top: 200px;
 }
 .portfolio-box {
   margin-right: 30px;
@@ -318,10 +315,10 @@ margin: 0px;
   width: 370px;
   height: 404px;
 }
-.portfolio-box:nth-child(3n){
+.portfolio-box:nth-child(3n) {
   margin-right: 0px;
 }
-.portfolio-box:nth-child(-n+6){
+.portfolio-box:nth-child(-n + 6) {
   margin-bottom: 30px;
 }
 .portfolio-list {
@@ -331,9 +328,11 @@ margin: 0px;
   margin: 0px;
   padding: 0px;
   padding-bottom: 94px;
+  padding-top: 50px;
 }
 .main {
-  margin-top: 0px;
+ padding-top: 94px;
+
 }
 .address {
   display: inline;
@@ -354,9 +353,14 @@ margin: 0px;
 .footer-adr:hover {
   color: #2196f3;
 }
-.footer{
-  height: 252px;
+.footer {
+  padding: 60px;
 }
-
-
+footer-container {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
+}
 
