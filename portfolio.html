@@ -13,50 +13,53 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header-container ">  
-      
-      <nav class="nav">
-        <a class="logo" href="./index.html"><span class="l">Web</span>Studio</a>
-        <ul class="navy">
-          <li class="navy">
-            <a class="menu " href="./index.html">Студия</a>
+      <div class="container header-container">
+        <nav class="nav">
+          <a class="logo" href="./index.html"
+            ><span class="logo-text">Web</span>Studio</a
+          >
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Студия</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contacts">
+          <li class="header-contact">
+            <a class="header-contact-link" href="mailto:info@example.com">info@example.com</a>
           </li>
-          <li class="navy" >
-            <a class="menu active" href="./portfolio.html">Портфолио</a>
+          <li class="header-contact">
+            <a class="header-contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
-          <li class="navy"><a class="menu" href="#">Контакты</a></li>
         </ul>
-      </nav>
-      <ul class="navy-data">
-        <li>
-          <a class="address" href="mailto:info@example.com">info@example.com</a>
-        </li>
-        <li>
-          <a class="address" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-    </header>  
+      </div>
+    </header>
     <main class="main">
-      <section class="portfolio">
+      <section class="section portfolio">
         <div class="container">
         <ul class="portfolio-buttons">
-          <li><button class="portfolio-actived">Все</button></li>
-          <li><button class="portfolio-bu">Веб-сайты</button></li>
-          <li><button class="portfolio-bu">Приложения</button></li>
-          <li><button class="portfolio-bu">Дизайн</button></li>
-          <li><button class="portfolio-bu">Маркетинг</button></li>
+          <li><button class="portfolio-button actived">Все</button></li>
+          <li><button class="portfolio-button">Веб-сайты</button></li>
+          <li><button class="portfolio-button">Приложения</button></li>
+          <li><button class="portfolio-button">Дизайн</button></li>
+          <li><button class="portfolio-button">Маркетинг</button></li>
         </ul>
         <ul class="portfolio-list">
           <li class="portfolio-box">
             <img
+            class="portfolio-img"
               src="./images/site.jpg"
               alt="web"
               width="370"
             />
-            <h3 class="list">Технокряк</h3>
-            <p class="items">Веб-сайт</p>
+            <h3 class="portfolio-heading list">Технокряк</h3>
+            <p class="portfolio-text items">Веб-сайт</p>
           </li>
           <li class="portfolio-box">
             <img
@@ -135,16 +138,18 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer-container container">
-      <a class="logo-footer" href="/index.html"
-        ><span class="l">Web</span>Studio</a
-      >
-      <address class="address-col">
-        г. Киев, пр-т Леси Украинки, 26
-        <a class="footer-address" href="mailto:info@example.com">info@example.com</a>
-        <a class="footer-address" href="tel:+380961111111">+38 096 111 11 11</a>
-      </address>
-    </div>
+      <div class="container footer-container">
+        <a class="footer-logo logo-footer" href="/index.html"
+          ><span class="logo-text">Web</span>Studio</a
+        >
+        <address class="footer-address">
+         <p class="footer-map"> г. Киев, пр-т Леси Украинки, 26</p>
+          <a class="footer-contacts " href="mailto:info@example.com"
+            >info@example.com</a
+          >
+          <a class="footer-contacts " href="tel:+380961111111">+38 096 111 11 11</a>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
