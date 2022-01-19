@@ -47,6 +47,12 @@ ul {
 
 header {
   border-bottom: 1px solid #ececec;
+
+}
+
+header{
+  border-bottom: 1px solid #ECECEC;
+
 }
 
 /* button styles start */
@@ -67,6 +73,8 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-size: 16px;
+
+  
 
   cursor: pointer;
   border: none;
@@ -365,6 +373,7 @@ header {
 /* team end */
 
 /* clients start */
+
 
 .client {
   font-family: Roboto;
